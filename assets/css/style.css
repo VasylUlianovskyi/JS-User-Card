@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 300px;
+  max-width: 520px;
+  width: 100%;
+  border: none;
+  border-radius: 40px;
+  background-color: white;
+  box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.25);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.user-photo {
+  width: 17rem;
+  height: 16rem;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 2rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 3.5rem;
+}
+
+h1 {
+  font-size: 2.3rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #515B34;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #D97961;
+}
+
+
+.card-footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+  width: 100%;
+  padding: 1.5rem;
+
+}
+
+.btn {
+  height: 3.6rem;
+  width: 14rem;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  background-color: #D97961;
+  cursor: pointer;
+}
+
+.contact-btn {
+  background-color: #806F51;
+}

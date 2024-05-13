@@ -13,11 +13,11 @@ const userCard = `
     <p class="subtitle"> Age: ${userAge}</p>
     <p class="subtitle"> Phone: ${userPhone}</p>
     <p class="subtitle"> Email: ${userEmail}</p>
-    <footer class="card-footer">
-      <button class="btn contact-btn">Contact Me</button>
-      <button class="btn">Hire Me</button>
-    </footer>
   </div>
+  <footer class="card-footer">
+    <button class="btn contact-btn">Contact Me</button>
+    <button class="btn">Hire Me</button>
+  </footer>
 </article>
 `;
 
